@@ -1,0 +1,36 @@
+body{
+    font-family: Cambria !important;
+}
+
+#input{
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: beige;
+}
+
+#btn{
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 50px;
+    background-color: #163a5f;
+    color: #fff;
+}
+
+li{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px){
+    #input{
+        width: 80%;
+    }
+}
